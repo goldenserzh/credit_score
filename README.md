@@ -1,13 +1,14 @@
-# Credit Scoring Project (Alpha)
+# Credit Scoring Project 
 
 Проект по предсказанию вероятности дефолта заемщика на основе данных Kaggle.
 
 ## Основные этапы:
 1. **EDA**: Анализ дисбаланса классов (целевой класс ~6.7%).
-2. **Feature Engineering**: Создан признак `IncomePerPerson` для учета нагрузки на бюджет.
+2. **Feature Engineering**: Создание признаков.
 3. **Моделирование**: Использован CatBoost с оптимизацией через Optuna.
 4. **Интерпретация**: Анализ важности признаков с помощью SHAP.
 
 ## Как запустить:
 1. `pip install -r requirements.txt`
 2. Откройте `notebooks/final_solution.ipynb`
+
